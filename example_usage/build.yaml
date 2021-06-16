@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      animated_widget_generator|animatedWidgetBuilder:
+        enabled: True
+        generate_for:
+          - lib/*
